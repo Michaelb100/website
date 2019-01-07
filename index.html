@@ -1,28 +1,100 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<HTML lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Flexbox and a JavaScript eventListener</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+<title>Michael Brasier  </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+
+</head> 
+
 <body>
+	<div id="container">
+	 
+		<header> 
+		<img src="https://i.imgur.com/K7H48Qh.png" alt="EMSS" style="float:left;width:15%;height:15%;">  
+		
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html" title="The Home Page of Michael Brasier" accesskey="1">Home</a></li> 
+			<li><a href="CV.html" title="Michael Brasier CV" accesskey="2">CV</a></li>
+			<li><a href="Links.html" title="Michael Brasier Links" accesskey="4">Links</a></li>
+		</ul>		
+	</nav>
+		
+	<div id="mid-sectionOne">
+		<Section id=Section-One class="Content_SectionOne">
+			<h3>About Me</h3>
 
-  <header>
-    <h1>CSS Flexbox and a JavaScript eventListener</h1>
-  </header>
+			<p>
+				 The past nine years of my life have been heavily involved within computing which started with the preoccupation and hobby of mine as well as a field of study starting at the age of 14 where I had the option to choose 
+				it as a specific subject. Due to my outside of education interest within the subject of computing I believe I have an increased interest in learning anything computing based whether it be completely foreign to me or not. 
+				I am currently studying a Bachelor’s Degree in Computing at DeMontfort University.  Along with my education I also work as a part time Chef in Nottingham for The Plough at Normanton on the Worlds which is currently 
+				awaiting the results for the Nottingham Restaurant awards for multiple categories.
+			</p>	
+			<h3>Contact Me</h3>
 
-  <nav>
-    <a href="#">link 1</a>
-    <a href="#">link 2</a>
-    <a href="#">link 3</a>
-    <a href="#">link 4</a>
-  </nav>
+		<p id="Email">+44 (0)7378814845</p>
 
-  <main>
-    <p id="hello">Click me to say hello</p>
-  </main>
+		<button type="button" onclick='document.getElementById("Email").innerHTML = "MikeBrasier3@gmail.com"'>	Or Email me</button>
 
-  <script src="js/scripts.js"></script>
+
+
+			<h3>More About Me</h3>
+				<p>	
+					Outside of employment and education, enjoyment and relaxation comes to me through the sense of music and staying healthy through exercise. This mainly comes through the visiting of the gym regularly in order to take part
+					in weight training as well as cardio building. Through the use of the gym I believe I have become a better person through self-discipline. Another skill I believe I have learnt through the attending the gym is giving me a realistic outcome 
+					on learning that some things simply take time to perfect rather than being lots amount of effort for very short periods of time.
+				</p>
+				<h3>Skills</h3>
+		<table width="90%"style="float: left">
+		<tbody>
+			<tr>
+			<td>
+				<ul>
+					<li>Microsoft Office </li>
+					<li>Culinary Skills</li>
+					<li>Leadership </li>
+					<li>Cooking Industry Knowledge </li>
+				</ul>
+
+
+			</td>
+			<td>
+			</td>
+			<td>
+				<ul>
+					<li>Listening Skills</li>
+					<li>Communication</li>
+					<li>Team Work </li>
+					<li>Cash Handling  </li>
+					
+				</ul>
+				</td>
+		</tr>
+		</tbody>
+		</table>
+		
+		</Section id=Section-One>
+		
+		
+		
+	</div><!-- Closes Mid Section --> 
+			<footer>
+			
+		<ul>
+			<li><a href="index.html" title="The Home Page of Michael Brasier" accesskey="1">Home</a></li> 
+			<li><a href="CV.html" title="Michael Brasier CV" accesskey="2">CV</a></li>
+			<li><a href="Links.html" title="Michael Brasier Links" accesskey="4">Links</a></li>
+			<p>Created By Michael Brasier</p>
+			<p>All content ©Copyright Michael Brasier 2018</p>
+			<p>Contact information: Email: <a href="mailto:info@MikeBrasier3@gmail.com ">MikeBrasier3@gmail.com</a> Phone: +44 (0)7378814845</p>
+		</ul>
+		
+		</footer>
+	</div><!-- Closes the container-->
+
 </body>
 </html>
