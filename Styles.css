@@ -1,0 +1,214 @@
+html, body{
+	background-color:#fff;
+	box-sizing: border-box;
+}
+
+#container{
+	Width:100%;
+	min-height:1157px;
+	background-color:#d5d9e0;
+	border: 2px solid #000000;
+	box-sizing: border-box;
+	Margin:0px auto;
+	box-sizing: border-box;
+	font-family: verdana;
+}
+
+body *{
+  font-family: verdana;
+}
+header {
+	min-height:px; 
+	width:100%;
+	box-sizing: border-box;
+	Float:left; 
+	Background-color: #d5d9e0;
+	box-sizing: border-box;
+}
+
+
+nav{
+	border-top: 2px solid #000000;
+	min-height:950px;
+	width:10%;
+	background-color:#d5d9e0;
+	display:block; 	
+	Margin-Top:1px; 
+	Float:left;
+	box-sizing: border-box;
+	border-Right:1px solid #000000;
+}
+
+nav ul{
+	List-style-type:none;
+	padding:0;
+	Margin:0;
+	display:table;
+	width:100%;
+	box-sizing: border-box;
+}
+
+nav ul li{	
+	float:none;
+	width:100%;
+	height:20%;
+	text-align:center;
+	display:block;
+	border-bottom: 1px solid #000; 
+	box-sizing: border-box;
+}
+
+nav ul li a{
+	height:25px;
+	Text-decoration:none;
+	font-family:verdana;
+	font-size:95%; 
+	text-align:center;
+	display:block;
+	Background-Color: #;
+	box-sizing: border-box;
+}
+
+nav ul li a:link{
+	color:#000000;
+	background-color:#979899;
+}
+
+nav ul li a:visited{
+	color:#ffffff;
+	background-color:ffffff;
+}
+
+nav ul li a:hover{
+	color:979899;
+	background-color:#979899	;
+}
+
+nav ul li a:active{
+	color:#979899;
+	background-color:#499273;
+	border:1px solid #f29832;
+	box-sizing: border-box;
+}
+
+#mid-sectionOne{
+	width:100%;
+	background-color:#d5d9e0;
+}
+
+#mid-sectionTwo{
+	width:100%;
+	background-color:#d5d9e0;
+}
+
+#Section-One{
+	Border-Top: 1px solid #000;
+	Height:850px;
+	Width: 90%;
+	Float:Left; 
+	display:block;
+	Background-Color: #d5d9e0;
+	box-sizing: border-box;
+	Margin-Top:1px; 
+	font-family: verdana;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer {
+	height:130px; 
+	width:100%;
+	border-bottom:2px solid #636363;
+	Float:Left; 
+	Background-color: #d5d9e0;
+	display: block;
+	box-sizing: border-box;
+}
+
+footer ul{
+	List-style-type:none;
+	padding:0;
+	Margin:0;
+	display:table;
+	width:100%;
+
+}
+
+footer ul li{	
+	float:left;
+	width: calc(100%/3);
+	text-align:center;
+	display:block;
+	border-bottom:2px solid #636363;
+	border-top:2px solid #636363;
+	box-sizing: border-box;
+	
+}
+
+footer ul li a{
+	Text-decoration:none;
+	font-family:verdana;
+	font-size:95%; 
+	text-align:center;
+	display:block;
+	Background-Color: #d5d9e0;
+	box-sizing: border-box;
+}
+
+footer ul li a:link{
+	color:#111;
+	background-color:#848484;
+}
+
+footer ul li a:visited{
+	color:#0033ff;
+	background-color:fff;
+}
+
+footer ul li a:hover{
+	color:111;
+	background-color:#f9f9f9	;
+}
+
+footer ul li a:active{
+	color:000;
+	background-color:#000;
+	border:1px solid #111;
+	box-sizing: border-box;
+}
+
+h3 {
+	margin-left: 10px;
+}
+h4 {
+	Margin-Left:10px;
+}
+
+img #12 {
+	Margin:10px;
+}
+
+aside {
+	Border-Top: 1px solid #fff;
+	Height:850px;
+	Width: 90%;
+	Float:Left; 
+	display:block;
+	Background-Color: #fff;
+	box-sizing: border-box;
+	Margin-Top:1px; 
+	font-family: verdana;
+	min-height:1300px
+}
+
+.contentcontact {
+	min-height:950px;
+}
+
+#DownloadCV {
+text-align:center;
+Float:left;
+}
